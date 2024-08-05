@@ -2,6 +2,7 @@ import styles from "./Home.module.css";
 import Header from "../../components/Header"
 import Container from "../../components/Container"
 import Footer from "../../components/Footer"
+import { Link } from "react-router-dom";
 
 function Home() {
     return(
@@ -15,7 +16,7 @@ function Home() {
                             <span>Heber Gustavo</span> <br />
                             Full Stack Developer
                         </p>
-                        <button className={styles.default}>Learn more about me</button>
+                        <Link to="/about" className={styles.btnDefault}>Learn more about me</Link>
                     </div>
                     <div className={styles.rigth}>
                         <img src="/person-full-stack.svg" alt="Boas vindas"></img>
