@@ -1,6 +1,16 @@
+import Header from "../../components/Header"
+import Container from "../../components/Container"
+import Footer from "../../components/Footer"
+
 function Contact() {
     return(
-        <h1>Contact</h1>
+        <section>
+           <Header />
+            <Container>
+                <h2>Contato</h2>
+            </Container>
+            <Footer />
+        </section>
     );
 }
 

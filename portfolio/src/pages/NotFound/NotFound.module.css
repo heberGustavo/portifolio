@@ -1,0 +1,17 @@
+.notFound{
+    margin: auto;
+    text-align: center;
+}
+
+.notFound h2{
+    font-size: 2rem;
+}
+
+.notFound h2 span{
+    color: var(--red);
+    font-weight: 900px;
+}
+
+.notFound img{
+    padding: 50px 0;
+}

@@ -1,6 +1,17 @@
+import Header from "../../components/Header"
+import Container from "../../components/Container"
+import Footer from "../../components/Footer"
+
+
 function Project() {
     return(
-        <h1>Project</h1>
+        <section>
+           <Header />
+            <Container>
+                <h2>Projeto</h2>
+            </Container>
+            <Footer />
+        </section>
     );
 }
 
