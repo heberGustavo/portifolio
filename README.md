@@ -31,7 +31,8 @@ Concepts/Techniques used in:
 ## :round_pushpin: Demo
 Link: https://portifolio-two-khaki.vercel.app/
 
-![image](https://github.com/user-attachments/assets/c21a8e67-c7a6-49f8-a405-e9acb9cb8ba5)
+![image](https://github.com/user-attachments/assets/983a7609-1066-428a-b576-bad1395816ca)
+
 
 
 ## :wrench: How to use
