@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function Project() {
 
-    const [repositories, setRepositories] = useState([]);
+    const [repositories, setRepositories] = useState([]);   
 
     useEffect(() => {
         const searchRepositories = async () => {
@@ -35,7 +35,10 @@ function Project() {
                         }
                     </section>
                 ) : (
-                    <p>Carregando repositórios</p>
+                    <div className={styles.msg_loading}>
+                        <p>Carregando repositórios...</p>
+                        <span>Se demorar muito, talvez atingiu o limite de requisições no GitHub</span>
+                    </div>
                 )
             }
         </section>

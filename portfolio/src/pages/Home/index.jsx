@@ -6,11 +6,11 @@ function Home() {
         <section className={styles.home}>
             <div className={styles.left}>
                 <p>
-                    Hi, I am <br/>
+                    Olá, me chamo <br/>
                     <span>Heber Gustavo</span> <br />
-                    Full Stack Developer
+                    sou Desenvolvedor Full Stack
                 </p>
-                <Link to="/about" className={styles.btnDefault}>Learn more about me</Link>
+                <Link to="/about" className={styles.btnDefault}>Conheça-me mais</Link>
             </div>
             <div className={styles.rigth}>
                 <img src="/person-full-stack.svg" alt="Boas vindas"></img>
