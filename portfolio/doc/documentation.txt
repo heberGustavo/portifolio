@@ -2,3 +2,4 @@ Libs
     - Vite
     - React-router-dom
     - React-icons
+    - github-lang-to-icon
